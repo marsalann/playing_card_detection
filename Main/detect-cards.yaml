@@ -1,0 +1,62 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../images  # dataset root dir
+train: train  # train images (relative to 'path') 128 images
+val: val  # val images (relative to 'path') 128 images
+#test:  # test images (optional)
+
+nc: 52
+
+names:
+  0: Ah
+  1: Kh
+  2: Qh
+  3: Jh
+  4: 10h
+  5: 9h
+  6: 8h
+  7: 7h
+  8: 6h
+  9: 5h
+  10: 4h
+  11: 3h
+  12: 2h
+  13: Ad
+  14: Kd
+  15: Qd
+  16: Jd
+  17: 10d
+  18: 9d
+  19: 8d
+  20: 7d
+  21: 6d
+  22: 5d
+  23: 4d
+  24: 3d
+  25: 2d
+  26: Ac
+  27: Kc
+  28: Qc
+  29: Jc
+  30: 10c
+  31: 9c
+  32: 8c
+  33: 7c
+  34: 6c
+  35: 5c
+  36: 4c
+  37: 3c
+  38: 2c
+  39: As
+  40: Ks
+  41: Qs
+  42: Js
+  43: 10s
+  44: 9s
+  45: 8s
+  46: 7s
+  47: 6s
+  48: 5s
+  49: 4s
+  50: 3s
+  51: 2s
+  
